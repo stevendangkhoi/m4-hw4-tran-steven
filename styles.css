@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #777;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 35px;
+    background-color: #002431;
+    color: white;
+    font-size: 34px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #002431;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 16px;
+    padding-left: 16px;
+    border-left: 2px solid #777777;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+nav a:first-child {
+    border-left: none;
+}
+
+main {
+    min-height: 720px;
+    padding: 40px 0;
+    background-image: url("moroccan-flower.png");
+    background-repeat: repeat;
+}
+
+.page-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.main-section {
+    width: 650px;
+    background-color: white;
+    padding: 25px;
+}
+
+.sidebar {
+    width: 270px;
+    background-color: white;
+    padding: 25px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: #002431;
+    border-bottom: 2px solid #777777;
+    font-size: 32px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    float: left;
+    margin: 0 20px 15px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: block;
+}
+
+.social-icons img {
+    width: 58px;
+    height: 58px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px #999;
+}
+
+footer {
+    background-color: #888888;
+    border-top: 8px solid #002431;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
